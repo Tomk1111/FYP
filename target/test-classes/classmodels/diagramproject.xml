@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_16FVIIuTEeueh7y7DOIPNw" name="diagramproject">
+    <eAnnotations xmi:id="_2AI50IuTEeueh7y7DOIPNw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_2AI50YuTEeueh7y7DOIPNw" source="codegen">
+        <details xmi:id="_2AI50ouTEeueh7y7DOIPNw" key="codegenDirectory" value="/diagramproject/src"/>
+        <details xmi:id="_2Im5UIuTEeueh7y7DOIPNw" key="AssociatedSourceCode" value="/diagramproject/src/models/Flight.java;2618367477/1;/diagramproject/src/models/Guest.java;2306165920/1;/diagramproject/src/models/Intern.java;4080096358/1;/diagramproject/src/models/Location.java;1476453215/1;/diagramproject/src/models/Researcher.java;4075081460/1;/diagramproject/src/models/Ticket.java;933636235/1;/diagramproject/src/models/TravelManager.java;3547174699/1;/diagramproject/src/models/Traveler.java;3718370652/1;/diagramproject/src/models/Trip.java;4038212337/1;/diagramproject/src/models/User.java;1446448869/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_2FukcIuTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_2FukcYuTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_2FukcouTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_2Fukc4uTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_2FukdIuTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_2FukdYuTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_2FukdouTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_2Fukd4uTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_2FvLgIuTEeueh7y7DOIPNw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_2FvLgYuTEeueh7y7DOIPNw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_2FvLgouTEeueh7y7DOIPNw" name="security">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_2GZS0IuTEeueh7y7DOIPNw" name="Timestamp"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_2FvykIuTEeueh7y7DOIPNw" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_2GZ54YuTEeueh7y7DOIPNw" name="Date"/>
+<!--        <packagedElement xmi:type="uml:Class" xmi:id="_2GcWIYuTEeueh7y7DOIPNw" name="ArrayList"/>-->
+        <packagedElement xmi:type="uml:Interface" xmi:id="_2Gc9MYuTEeueh7y7DOIPNw" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_2FvykYuTEeueh7y7DOIPNw" name="models">
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F2gQIuTEeueh7y7DOIPNw" name="Flight">
+        <ownedAttribute xmi:id="_2GjD0IuTEeueh7y7DOIPNw" name="departure" visibility="private" type="_2F6KoIuTEeueh7y7DOIPNw" association="_2GpxgIuTEeueh7y7DOIPNw"/>
+        <ownedAttribute xmi:id="_2Gjq4YuTEeueh7y7DOIPNw" name="arrival" visibility="private" type="_2F6KoIuTEeueh7y7DOIPNw" association="_2GqYkIuTEeueh7y7DOIPNw"/>
+        <ownedAttribute xmi:id="_2Gjq44uTEeueh7y7DOIPNw" name="time" visibility="private" type="_2GZS0IuTEeueh7y7DOIPNw"/>
+        <ownedAttribute xmi:id="_2GkR8YuTEeueh7y7DOIPNw" name="date" visibility="private" type="_2GZ54YuTEeueh7y7DOIPNw"/>
+        <ownedAttribute xmi:id="_2GkR84uTEeueh7y7DOIPNw" name="remainingSeats" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F3uYIuTEeueh7y7DOIPNw" name="Guest">
+        <generalization xmi:id="_2GbvE4uTEeueh7y7DOIPNw" general="_2GA4UIuTEeueh7y7DOIPNw"/>
+        <ownedOperation xmi:id="_2GbvEIuTEeueh7y7DOIPNw" name="bookFlight">
+          <ownedParameter xmi:id="_2GbvEYuTEeueh7y7DOIPNw" name="flight" type="_2F2gQIuTEeueh7y7DOIPNw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F48gIuTEeueh7y7DOIPNw" name="Intern">
+        <generalization xmi:id="_2GcWIIuTEeueh7y7DOIPNw" general="_2GA4UIuTEeueh7y7DOIPNw"/>
+        <ownedOperation xmi:id="_2F48gYuTEeueh7y7DOIPNw" name="bookTrip"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F6KoIuTEeueh7y7DOIPNw" name="Location">
+        <ownedAttribute xmi:id="_2Gk5AYuTEeueh7y7DOIPNw" name="country">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2Gk5A4uTEeueh7y7DOIPNw" name="airport">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F6xsIuTEeueh7y7DOIPNw" name="Researcher">
+        <generalization xmi:id="_2GeyY4uTEeueh7y7DOIPNw" general="_2GA4UIuTEeueh7y7DOIPNw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2GnVQIuTEeueh7y7DOIPNw" name="getCompatibleFlights" specification="_2F6xsYuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GnVQYuTEeueh7y7DOIPNw" type="_2F2gQIuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GnVQouTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new ArrayList&lt;Flight>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2GnVQ4uTEeueh7y7DOIPNw" name="searchTickets" specification="_2F7YwYuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GnVRIuTEeueh7y7DOIPNw" type="_2F9N8IuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GnVRYuTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new ArrayList&lt;Ticket>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2GnVRouTEeueh7y7DOIPNw" name="searchFlights" specification="_2F7_0IuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GnVR4uTEeueh7y7DOIPNw" type="_2F2gQIuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GnVSIuTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new ArrayList&lt;Flight>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Gn8UIuTEeueh7y7DOIPNw" name="getRequiredData" specification="_2GeyYIuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2Gn8UYuTEeueh7y7DOIPNw" name="flight" type="_2F2gQIuTEeueh7y7DOIPNw"/>
+          <ownedParameter xmi:id="_2Gn8UouTEeueh7y7DOIPNw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return flight.toString();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_2F6xsYuTEeueh7y7DOIPNw" name="getCompatibleFlights" method="_2GnVQIuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2F6xsouTEeueh7y7DOIPNw" type="_2F2gQIuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2F7YwIuTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2F7YwYuTEeueh7y7DOIPNw" name="searchTickets" method="_2GnVQ4uTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2F7YwouTEeueh7y7DOIPNw" type="_2F9N8IuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2F7Yw4uTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2F7_0IuTEeueh7y7DOIPNw" name="searchFlights" method="_2GnVRouTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2F7_0YuTEeueh7y7DOIPNw" type="_2F2gQIuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2F7_0ouTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2GeyYIuTEeueh7y7DOIPNw" name="getRequiredData" method="_2Gn8UIuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GeyYYuTEeueh7y7DOIPNw" name="flight" type="_2F2gQIuTEeueh7y7DOIPNw"/>
+          <ownedParameter xmi:id="_2GeyYouTEeueh7y7DOIPNw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F9N8IuTEeueh7y7DOIPNw" name="Ticket">
+        <ownedAttribute xmi:id="_2GlgEYuTEeueh7y7DOIPNw" name="flight" visibility="private" type="_2F2gQIuTEeueh7y7DOIPNw" association="_2GqYk4uTEeueh7y7DOIPNw"/>
+        <ownedAttribute xmi:id="_2GlgE4uTEeueh7y7DOIPNw" name="price" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2GmHIYuTEeueh7y7DOIPNw" name="seatNumber" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_2GmHI4uTEeueh7y7DOIPNw" name="available" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_2GfZcIuTEeueh7y7DOIPNw" name="BookFlight">
+          <ownedParameter xmi:id="_2GfZcYuTEeueh7y7DOIPNw" name="flight" type="_2F2gQIuTEeueh7y7DOIPNw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F-cEIuTEeueh7y7DOIPNw" name="TravelManager">
+        <generalization xmi:id="_2GgAg4uTEeueh7y7DOIPNw" general="_2GA4UIuTEeueh7y7DOIPNw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Gn8U4uTEeueh7y7DOIPNw" name="checkAuthorizations" specification="_2GgAgIuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2Gn8VIuTEeueh7y7DOIPNw" name="ticket" type="_2F9N8IuTEeueh7y7DOIPNw"/>
+          <ownedParameter xmi:id="_2Gn8VYuTEeueh7y7DOIPNw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_2GgAgIuTEeueh7y7DOIPNw" name="checkAuthorizations" method="_2Gn8U4uTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GgAgYuTEeueh7y7DOIPNw" name="ticket" type="_2F9N8IuTEeueh7y7DOIPNw"/>
+          <ownedParameter xmi:id="_2GgAgouTEeueh7y7DOIPNw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2F_DIIuTEeueh7y7DOIPNw" name="Traveler">
+        <generalization xmi:id="_2GgnkIuTEeueh7y7DOIPNw" general="_2GA4UIuTEeueh7y7DOIPNw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Gn8VouTEeueh7y7DOIPNw" name="searchTickets" specification="_2F_qMIuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2Gn8V4uTEeueh7y7DOIPNw" type="_2F9N8IuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Gn8WIuTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return new ArrayList&lt;Ticket>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_2F_qMIuTEeueh7y7DOIPNw" name="searchTickets" method="_2Gn8VouTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2F_qMYuTEeueh7y7DOIPNw" type="_2F9N8IuTEeueh7y7DOIPNw" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2F_qMouTEeueh7y7DOIPNw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2GARQIuTEeueh7y7DOIPNw" name="Trip">
+        <ownedAttribute xmi:id="_2GmuMIuTEeueh7y7DOIPNw" name="bookings" visibility="private" type="_2F9N8IuTEeueh7y7DOIPNw" isOrdered="true" association="_2Gq_oYuTEeueh7y7DOIPNw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2GmuMYuTEeueh7y7DOIPNw" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_2Gn8WYuTEeueh7y7DOIPNw" name="addTicket" specification="_2GgnkYuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2Gn8WouTEeueh7y7DOIPNw" name="ticket" type="_2F9N8IuTEeueh7y7DOIPNw"/>
+          <language>java</language>
+          <body>bookings.add(ticket);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_2GgnkYuTEeueh7y7DOIPNw" name="addTicket" method="_2Gn8WYuTEeueh7y7DOIPNw">
+          <ownedParameter xmi:id="_2GgnkouTEeueh7y7DOIPNw" name="ticket" type="_2F9N8IuTEeueh7y7DOIPNw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_2GA4UIuTEeueh7y7DOIPNw" name="User">
+        <ownedOperation xmi:id="_2GhOoIuTEeueh7y7DOIPNw" name="bookTicket">
+          <ownedParameter xmi:id="_2GhOoYuTEeueh7y7DOIPNw" name="flight" type="_2F2gQIuTEeueh7y7DOIPNw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2GpxgIuTEeueh7y7DOIPNw" name="" memberEnd="_2GpxgYuTEeueh7y7DOIPNw _2GjD0IuTEeueh7y7DOIPNw">
+        <ownedEnd xmi:id="_2GpxgYuTEeueh7y7DOIPNw" name="" type="_2F2gQIuTEeueh7y7DOIPNw" association="_2GpxgIuTEeueh7y7DOIPNw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2GqYkIuTEeueh7y7DOIPNw" name="" memberEnd="_2GqYkYuTEeueh7y7DOIPNw _2Gjq4YuTEeueh7y7DOIPNw">
+        <ownedEnd xmi:id="_2GqYkYuTEeueh7y7DOIPNw" name="" type="_2F2gQIuTEeueh7y7DOIPNw" association="_2GqYkIuTEeueh7y7DOIPNw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2GqYk4uTEeueh7y7DOIPNw" name="" memberEnd="_2GqYlIuTEeueh7y7DOIPNw _2GlgEYuTEeueh7y7DOIPNw">
+        <ownedEnd xmi:id="_2GqYlIuTEeueh7y7DOIPNw" name="" type="_2F9N8IuTEeueh7y7DOIPNw" association="_2GqYk4uTEeueh7y7DOIPNw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2Gq_oYuTEeueh7y7DOIPNw" name="" memberEnd="_2Gq_oouTEeueh7y7DOIPNw _2GmuMIuTEeueh7y7DOIPNw">
+        <ownedEnd xmi:id="_2Gq_oouTEeueh7y7DOIPNw" name="" type="_2GARQIuTEeueh7y7DOIPNw" association="_2Gq_oYuTEeueh7y7DOIPNw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_2AJg4IuTEeueh7y7DOIPNw">
+      <eAnnotations xmi:id="_2AJg4YuTEeueh7y7DOIPNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_2AJg4ouTEeueh7y7DOIPNw" base_Package="_16FVIIuTEeueh7y7DOIPNw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2F5jkIuTEeueh7y7DOIPNw" base_Element="_2F48gYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2GZ54IuTEeueh7y7DOIPNw" base_Element="_2GZS0IuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2Gag8IuTEeueh7y7DOIPNw" base_Element="_2GZ54YuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GbvEouTEeueh7y7DOIPNw" base_Element="_2GbvEIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2Gc9MIuTEeueh7y7DOIPNw" base_Element="_2GcWIYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2GeLUIuTEeueh7y7DOIPNw" base_Element="_2Gc9MYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GfZcouTEeueh7y7DOIPNw" base_Element="_2GfZcIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GhOoouTEeueh7y7DOIPNw" base_Element="_2GhOoIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2Gjq4IuTEeueh7y7DOIPNw" base_Element="_2GjD0IuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2Gjq4ouTEeueh7y7DOIPNw" base_Element="_2Gjq4YuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GkR8IuTEeueh7y7DOIPNw" base_Element="_2Gjq44uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GkR8ouTEeueh7y7DOIPNw" base_Element="_2GkR8YuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2Gk5AIuTEeueh7y7DOIPNw" base_Element="_2GkR84uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2Gk5AouTEeueh7y7DOIPNw" base_Element="_2Gk5AYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GlgEIuTEeueh7y7DOIPNw" base_Element="_2Gk5A4uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GlgEouTEeueh7y7DOIPNw" base_Element="_2GlgEYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GmHIIuTEeueh7y7DOIPNw" base_Element="_2GlgE4uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GmHIouTEeueh7y7DOIPNw" base_Element="_2GmHIYuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GmHJIuTEeueh7y7DOIPNw" base_Element="_2GmHI4uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_2GmuMouTEeueh7y7DOIPNw" base_Element="_2GmuMIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2GpxgouTEeueh7y7DOIPNw" base_Element="_2GpxgIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2GqYkouTEeueh7y7DOIPNw" base_Element="_2GqYkIuTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2Gq_oIuTEeueh7y7DOIPNw" base_Element="_2GqYk4uTEeueh7y7DOIPNw"/>
+  <UMLLabProfile:Reference xmi:id="_2Gq_o4uTEeueh7y7DOIPNw" base_Element="_2Gq_oYuTEeueh7y7DOIPNw"/>
+</xmi:XMI>

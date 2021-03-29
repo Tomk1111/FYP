@@ -1,0 +1,66 @@
+@startuml
+    class Flight {
+        Location departure
+        Location arrival
+        Timestamp time
+        Date date
+        int remainingSeats
+    }
+
+    class Guest extends User{
+        bookFlight(Flight flight)
+    }
+
+    class Intern extends User{
+        bookTrip()
+    }
+
+    class Location {
+        String country
+        String airport
+    }
+
+    class Researcher extends User{
+        getCompatibleFlights() 
+        searchTickets()
+        searchFlights()
+        getRequiredData(Flight flight)
+
+    }
+
+    class Ticket {
+        Flight flight
+        int price
+        String seatNumber
+        Boolean available
+
+        BookFlight(Flight flight)
+    }
+
+    
+    class Traveler extends User{
+        searchTickets()
+    }
+
+    class TravelManager extends User{
+        checkAuthorizations(Ticket ticket)
+    }
+
+    class Trip {
+        List<Ticket> bookings
+        addTicket(Ticket ticket)
+    }
+
+
+    class User {
+        String name
+        String surname
+        String passportNumber
+        List<Trip> trips
+        bookTicket()
+    }
+
+
+
+
+@enduml
