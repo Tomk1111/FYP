@@ -1,0 +1,34 @@
+<story path="stories\G1\UONG15.storyConverted" title="Title: Parents Seminar">
+<scenario keyword="Scenario:" title="Title: Parents Seminar
+Narrative:
+As a parent
+I want to find the room where the parents seminar will be held 
+So I can get some general information about UL 
+Acceptance Criteria: 
+Scenario 1: Mobile App &quot;Event Buddy&quot; feature">
+<step outcome="successful">Given <parameter>as a parent</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Event Buddy&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>enter my details into the requested fields</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find the parents seminar event and see where it is being held
+Scenario 2: Mobile App &quot;Getting Around&quot; feature</parameter></step>
+<step outcome="successful">Given <parameter>that I know the room number of the parents seminar</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home screen</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find the room using the &quot;Search room&quot; field
+Scenario 3: Mobile App &quot;Getting Around&quot; feature - User enters room number in small caps</parameter></step>
+<step outcome="successful">Given <parameter>that I know the room number of the parents seminar</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home screen</parameter></step>
+<step outcome="successful">And <parameter>enter the room number using small caps</parameter></step>
+<step outcome="successful">Then <parameter>I will get an error saying &quot;Room not found&quot;
+Scenario 4: Virtual Open Day Webpage</parameter></step>
+<step outcome="successful">Given <parameter>that the Virtual Open Day webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Talks and Q&amp;A&quot; option from the webpage</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find details about the parents seminar and where it is being held
+Scenario 5: Virtual Open Day Webpage - No information found</parameter></step>
+<step outcome="successful">Given <parameter>that the Virtual Open Day webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Talks and Q&amp;A&quot; option from the webpage</parameter></step>
+<step outcome="successful">And <parameter>the Talks and Q&amp;A page has no details about a parents seminar</parameter></step>
+<step outcome="successful">And <parameter>there is no &quot;Need help?&quot; option</parameter></step>
+<step outcome="successful">Then <parameter>I cannot find the parents seminar details using the webpage</parameter></step>
+</scenario>
+</story>

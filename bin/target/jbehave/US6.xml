@@ -1,0 +1,173 @@
+<story path="stories\US6.storyConverted" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">researcher</inOrderTo>
+  <asA keyword="I want to">get a list of compatible flights (including their rates and times) in accordance with my search criteria</asA>
+  <iWantTo keyword="So that">I can select a suitable flight based on my needs.</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Select a Return Flight Searched Without Full Options">
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.
+Proceed to Login
+Reach the Travel Planet Search Page</parameter></step>
+<step outcome="successful">Given <parameter>As a researcher</parameter></step>
+<step outcome="successful">Given <parameter>I go to &quot;Flight Search&quot;</parameter></step>
+<step outcome="successful">When <parameter>I select &quot;Round Trip&quot;</parameter></step>
+<step outcome="successful">And <parameter>I inform &quot;Toulouse&quot; and choose &quot;Toulouse, Blagnac (TLS)&quot; in the field &quot;Departure&quot;</parameter></step>
+<step outcome="successful">When <parameter>I inform &quot;Paris&quot; and choose &quot;Paris, Charles-de-Gaulle (CDG)&quot; in the field &quot;Destination&quot;</parameter></step>
+<step outcome="successful">And <parameter>I set &quot;Sam, D&#233;c 1, 2018&quot; in the field &quot;Departure Date&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;Lun, D&#233;c 10, 2018&quot; in the field &quot;Arrival Date&quot;</parameter></step>
+<step outcome="successful">And <parameter>I submit &quot;Search&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;2. S&#233;lectionner un voyage&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As a researcher</parameter></step>
+<step outcome="successful">Given <parameter>&quot;Availability Page&quot; is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7519&quot;</parameter></step>
+<step outcome="successful">And <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7522&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;Book&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;J&apos;accepte les Conditions d&apos;achat concernant le(s) tarif(s) a&#233;rien(s).&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Select a Return Flight Searched With Full Options">
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.
+Proceed to Login
+Reach the Travel Planet Search Page</parameter></step>
+<step outcome="successful">Given <parameter>I go to &quot;Flight Search&quot;</parameter></step>
+<step outcome="successful">When <parameter>I inform &quot;Toulouse&quot; and choose &quot;Toulouse, Blagnac (TLS)&quot; in the field &quot;Departure&quot;</parameter></step>
+<step outcome="successful">And <parameter>I inform &quot;Paris&quot; and choose &quot;Paris, Charles-de-Gaulle (CDG)&quot; in the field &quot;Destination&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;Sam, D&#233;c 1, 2018&quot; in the field &quot;Departure Date&quot;</parameter></step>
+<step outcome="successful">And <parameter>I set &quot;08:00&quot; in the field &quot;Departure Time Frame&quot;</parameter></step>
+<step outcome="successful">When <parameter>I choose &quot;Round Trip&quot;</parameter></step>
+<step outcome="successful">And <parameter>I set &quot;Lun, D&#233;c 10, 2018&quot; in the field &quot;Arrival Date&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;10:00&quot; in the field &quot;Arrival Time Frame&quot;</parameter></step>
+<step outcome="successful">And <parameter>I choose the option of value &quot;2&quot; in the field &quot;Number of Passengers&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;6&quot; in the field &quot;Timeframe&quot;</parameter></step>
+<step outcome="successful">And <parameter>I select &quot;Direct Flights Only&quot;</parameter></step>
+<step outcome="successful">When <parameter>I choose the option of value &quot;Economique&quot; in the field &quot;Flight Class&quot;</parameter></step>
+<step outcome="successful">And <parameter>I set &quot;Air France&quot; in the field &quot;Company 1&quot;</parameter></step>
+<step outcome="successful">When <parameter>I submit &quot;Search&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;2. S&#233;lectionner un voyage&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>&quot;Availability Page&quot; is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7519&quot;</parameter></step>
+<step outcome="successful">And <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7522&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;Book&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;J&apos;accepte les Conditions d&apos;achat concernant le(s) tarif(s) a&#233;rien(s).&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Select a One-way Flight">
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.
+Proceed to Login
+Reach the Travel Planet Search Page</parameter></step>
+<step outcome="successful">Given <parameter>I go to &quot;Flight Search&quot;</parameter></step>
+<step outcome="successful">When <parameter>I inform &quot;Toulouse&quot; and choose &quot;Toulouse, Blagnac (TLS)&quot; in the field &quot;Departure&quot;</parameter></step>
+<step outcome="successful">And <parameter>I inform &quot;Paris&quot; and choose &quot;Paris, Charles-de-Gaulle (CDG)&quot; in the field &quot;Destination&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;Sam, D&#233;c 1, 2018&quot; in the field &quot;Departure Date&quot;</parameter></step>
+<step outcome="successful">And <parameter>I choose &quot;One-way / Multidestination&quot;</parameter></step>
+<step outcome="successful">When <parameter>I submit &quot;Search&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;2. S&#233;lectionner un voyage&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>&quot;Availability Page&quot; is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7519&quot;</parameter></step>
+<step outcome="successful">And <parameter>I click on &quot;Book&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;J&apos;accepte les Conditions d&apos;achat concernant le(s) tarif(s) a&#233;rien(s).&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+</scenario>
+<scenario keyword="Scenario:" title="Select a Multidestination Flight">
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.
+Proceed to Login
+Reach the Travel Planet Search Page</parameter></step>
+<step outcome="successful">Given <parameter>I go to &quot;Flight Search&quot;</parameter></step>
+<step outcome="successful">When <parameter>I choose &quot;One-way / Multidestination&quot;</parameter></step>
+<step outcome="successful">And <parameter>I inform &quot;Toulouse&quot; and choose &quot;Toulouse, Blagnac (TLS)&quot; in the field &quot;Departure&quot;</parameter></step>
+<step outcome="successful">When <parameter>I inform &quot;Paris&quot; and choose &quot;Paris, Charles-de-Gaulle (CDG)&quot; in the field &quot;Destination&quot;</parameter></step>
+<step outcome="successful">And <parameter>I set &quot;Sam, D&#233;c 1, 2018&quot; in the field &quot;Departure Date&quot;</parameter></step>
+<step outcome="successful">When <parameter>I inform &quot;Paris&quot; and choose &quot;Paris, Charles-de-Gaulle (CDG)&quot; in the field &quot;Departure&quot;</parameter></step>
+<step outcome="successful">And <parameter>I inform &quot;Nice&quot; and choose &quot;Nice, C&#244;te D&apos;Azur (NCE)&quot; in the field &quot;Destination&quot;</parameter></step>
+<step outcome="successful">When <parameter>I set &quot;Lun, D&#233;c 10, 2018&quot; in the field &quot;Departure Date&quot;</parameter></step>
+<step outcome="successful">And <parameter>I submit &quot;Search&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;2. S&#233;lectionner un voyage&quot;</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">Given <parameter>&quot;Availability Page&quot; is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on &quot;No Bag&quot; referring to &quot;Air France 7519&quot;</parameter></step>
+<step outcome="successful">And <parameter>I click on &quot;Book&quot;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed &quot;J&apos;accepte les Conditions d&apos;achat concernant le(s) tarif(s) a&#233;rien(s).&quot;</parameter></step>
+</scenario>
+</story>

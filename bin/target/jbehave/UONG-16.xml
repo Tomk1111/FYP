@@ -1,0 +1,30 @@
+<story path="stories\G1\UONG-16.storyConverted" title="Title: Different types of Engineering">
+<scenario keyword="Scenario:" title="Title: Different types of Engineering
+Narrative:
+As a prospective student
+I want to see a list of all activities associated with the Engineering department 
+So I can decide which type I want to do. 
+Acceptance Criteria: 
+Scenario 1: Mobile App &quot;Event Buddy&quot; feature">
+<step outcome="successful">Given <parameter>as a prospective student</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Event Buddy&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>enter my details into the requested fields</parameter></step>
+<step outcome="successful">Then <parameter>I will get a schedule with all the events for the Engineering dept.
+Scenario 2: Mobile App &quot;What&apos;s On&quot; feature</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">And <parameter>my schdule has been generated using the Event Buddy</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Whats On&quot; feature from the home screen</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to choose which Engineering events I want to go to
+Scenario 3: Mobile App &quot;Book  a meeting&quot; with lecturers from different Engineering depts.</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Book a meeting&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>choose lecturer from the options</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to choose a meeting slot with a lecturer from any Engineering dept.
+Scenario 4: Website &quot;Courses&quot; page</parameter></step>
+<step outcome="successful">Given <parameter>that the Virtual Open Day webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Courses&quot; option from the webpage</parameter></step>
+<step outcome="successful">And <parameter>I choose &quot;Engineering Courses&quot; from the list of disciplines</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find details for each course in the different Engineering Depts.</parameter></step>
+</scenario>
+</story>

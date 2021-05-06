@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>UONG24</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories\G1\UONG24.storyConverted" title="Title: Accessibility">
+<scenario keyword="Scenario:" title="Title: Accessibility 
+Narrative: As a wheelchair user, I wish to find out which talks will be accessible to me so I can attend them.
+Acceptance Criteria: 
+Scenario 1: Extra Open Day Event Information">
+<step outcome="successful">Given <parameter>as a wheelchair user</parameter></step>
+<step outcome="successful">Given <parameter>that the timetable of open day events is loaded</parameter></step>
+<step outcome="successful">When <parameter>I hover over an event</parameter></step>
+<step outcome="successful">Then <parameter>extra information about the event should be shown
+Scenario 2: Open Day Event Information</parameter></step>
+<step outcome="successful">Given <parameter>that the timetable of open day events is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on an event</parameter></step>
+<step outcome="successful">Then <parameter>event information page should be loaded
+Scenario 3: Map Extras</parameter></step>
+<step outcome="successful">Given <parameter>that a map of the college is loaded</parameter></step>
+<step outcome="successful">When <parameter>I check the box labelled &quot;Show accessibility&quot;</parameter></step>
+<step outcome="successful">Then <parameter>a wheelchair icon should appear on all of the buildings which have wheelchair access
+Scenario 4: Open Day Timetable</parameter></step>
+<step outcome="successful">Given <parameter>that the timetable of Friday open day events is loaded</parameter></step>
+<step outcome="successful">And <parameter>that there are no events on Saturday</parameter></step>
+<step outcome="successful">When <parameter>I toggle the calendar to the next day</parameter></step>
+<step outcome="successful">Then <parameter>the calendar will be blank</parameter></step>
+<step outcome="successful">And <parameter>the message &quot;No events scheduled&quot; will be displayed. 
+Scenario 5: Booking Events</parameter></step>
+<step outcome="successful">Given <parameter>that I have enrolled to attend the in person open day</parameter></step>
+<step outcome="successful">And <parameter>that as part of the enrolment form I checked the &quot;wheelchair user&quot; box</parameter></step>
+<step outcome="successful">And <parameter>that I am logged in to the app</parameter></step>
+<step outcome="successful">And <parameter>the webpage of an event with no wheelchair access is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click book event</parameter></step>
+<step outcome="successful">Then <parameter>a warning message reading &quot;Unfortunately this event is not wheelchair accessible, Would you like to continue&quot; is displayed.</parameter></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

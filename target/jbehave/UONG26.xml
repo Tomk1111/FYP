@@ -1,0 +1,45 @@
+<story path="stories\G1\UONG26.storyConverted" title="Title: Restaurants and Cafe information">
+<scenario keyword="Scenario:" title="Title: Restaurants and Cafe information 
+Narrative: As a physical attendee, I wish to be able to able to easily find cafes and restaurants near me so that I can eat/drink and discuss the open day with friends.
+Acceptance Criteria: 
+Scenario 1: Restaurants by map">
+<step outcome="successful">Given <parameter>As a physical attendee</parameter></step>
+<step outcome="successful">Given <parameter>that I have the app open on my phone</parameter></step>
+<step outcome="successful">And <parameter>that the map page is loaded</parameter></step>
+<step outcome="successful">When <parameter>I check the show cafes/restaurants box</parameter></step>
+<step outcome="successful">Then <parameter>a knife and fork symbol will appear on the map on any building that has a cafe/restaurant
+Scenario 2: Restaurants by web list</parameter></step>
+<step outcome="successful">Given <parameter>that the visiting UL webpage is loaded</parameter></step>
+<step outcome="successful">And <parameter>I click on where to eat</parameter></step>
+<step outcome="successful">Then <parameter>list of restaurants and cafes on campus will be loaded
+Scenario 3: More Restaurant info by web list</parameter></step>
+<step outcome="successful">Given <parameter>that a list of restaurants and cafes on campus is loaded</parameter></step>
+<step outcome="successful">And <parameter>I click on a restaurant/cafe</parameter></step>
+<step outcome="successful">Then <parameter>a webpage with more information about the cafe will be loaded
+Scenario 4: App restaurant information</parameter></step>
+<step outcome="successful">Given <parameter>that the I have the app open on my phone</parameter></step>
+<step outcome="successful">And <parameter>I the map page is loaded</parameter></step>
+<step outcome="successful">And <parameter>I have checked the show cafes/restaurants box</parameter></step>
+<step outcome="successful">When <parameter>I tap a knife and fork symbol on the map</parameter></step>
+<step outcome="successful">Then <parameter>information about the cafe/restaurant will be shown 
+Scenario 5: Web List Search</parameter></step>
+<step outcome="successful">Given <parameter>that that the list of cafes and restaurants is loaded</parameter></step>
+<step outcome="successful">And <parameter>I enter the name of a cafe in the search bar at the top</parameter></step>
+<step outcome="successful">When <parameter>I click search</parameter></step>
+<step outcome="successful">Then <parameter>the list of cafes will change</parameter></step>
+<step outcome="successful">And <parameter>only cafes with the word I searched in their name will appear 
+Scenario 6: Wrong Web List Search</parameter></step>
+<step outcome="successful">Given <parameter>that that the list of cafes and restaurants is loaded</parameter></step>
+<step outcome="successful">And <parameter>I enter the name of a cafe in the search bar at the top</parameter></step>
+<step outcome="successful">And <parameter>there are no cafes with this name on campus</parameter></step>
+<step outcome="successful">When <parameter>I click search</parameter></step>
+<step outcome="successful">Then <parameter>a message reading &quot;There are no cafes/restaurants with this name&quot; will be displayed.
+Scenario 7: Refresh cafe list page</parameter></step>
+<step outcome="successful">Given <parameter>that that the list of cafes and restaurants is loaded</parameter></step>
+<step outcome="successful">And <parameter>I enter the name of a cafe in the search bar at the top</parameter></step>
+<step outcome="successful">And <parameter>I click search</parameter></step>
+<step outcome="successful">And <parameter>the list of cafes is filtered</parameter></step>
+<step outcome="successful">When <parameter>I refresh the page</parameter></step>
+<step outcome="successful">Then <parameter>the original full list of cafes/restaurants will load</parameter></step>
+</scenario>
+</story>

@@ -1,0 +1,22 @@
+<story path="stories\G1\UONG-13.storyConverted" title="Title: Contact details for mature students queries">
+<scenario keyword="Scenario:" title="Title: Contact details for mature students queries
+Narrative:
+As a prospective mature student
+I wish to find out how I can contact college faculty 
+So that I can ask specific questions related to course content
+Acceptance Criteria: 
+Scenario 1: Contact details found on website">
+<step outcome="successful">Given <parameter>as a prospective mature student</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Contact Us&quot; tab</parameter></step>
+<step outcome="successful">And <parameter>select the relevant mature student queries option</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find contact details for mature students information
+Scenario 2: Contact details found on through mobile app</parameter></step>
+<step outcome="successful">Given <parameter>that I am logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Website&quot; tab from the home screen</parameter></step>
+<step outcome="successful">And <parameter>the website display is loaded</parameter></step>
+<step outcome="successful">And <parameter>I click on the &quot;Contact Us&quot; tab</parameter></step>
+<step outcome="successful">And <parameter>select the relevant mature student queries option</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find contact details for mature students information</parameter></step>
+</scenario>
+</story>

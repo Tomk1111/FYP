@@ -1,0 +1,61 @@
+<html>
+<head>
+	<style type="text/css">@import "view/style/jbehave-core.css";</style>
+</head>
+
+<body>
+<div class="story">
+<h1>Title: Course List</h1>
+<div class="path">stories\G1\UONG1.storyConverted</div>
+<div class="scenario">
+<h2>Scenario: Title: Course List 
+Narrative: As a current leaving certificate student I want to see what courses are available at UL to help me decide what I should study at third level.
+Acceptance Criteria: 
+Scenario 1: Course List</h2>
+<div class="step successful">Given <span class="step parameter">As a current leaving certificate student</span></div>
+<div class="step successful">Given <span class="step parameter">that the University Limerick homepage is displayed</span></div>
+<div class="step successful">When <span class="step parameter">I click on courses</span></div>
+<div class="step successful">Then <span class="step parameter">the webpage with a list of courses available at UL is displayed <br/>Scenario 2: Course Keyword Search</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">I enter a word in the search bar</span></div>
+<div class="step successful">And <span class="step parameter">courses with this word in their title are taught at UL</span></div>
+<div class="step successful">When <span class="step parameter">I click search</span></div>
+<div class="step successful">Then <span class="step parameter">only the courses with that word in the title will be displayed <br/>Scenario 3: No Course with Keyword Search</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">I enter a word in the search bar</span></div>
+<div class="step successful">And <span class="step parameter">no course with that word in the title is taught at UL</span></div>
+<div class="step successful">When <span class="step parameter">I click search</span></div>
+<div class="step successful">Then <span class="step parameter">the message &quot;No Courses Found&quot; will be displayed <br/>Scenario 4: Course Information</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">When <span class="step parameter">I click on the title of the course on the list</span></div>
+<div class="step successful">Then <span class="step parameter">the course homepage will be displayed<br/>Scenario 4: Department Information</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">When <span class="step parameter">I click on the department which facilitates a course</span></div>
+<div class="step successful">Then <span class="step parameter">the department homepage will be displayed<br/>Scenario 5:Filtering By Department</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">that there are courses taught by the department of omputer Science and Information Systems</span></div>
+<div class="step successful">And <span class="step parameter">the &quot;filter by department&quot; dropdown list is selected</span></div>
+<div class="step successful">And <span class="step parameter">I check &quot;Computer Science and Information Systems&quot;</span></div>
+<div class="step successful">When <span class="step parameter">I click Enter</span></div>
+<div class="step successful">Then <span class="step parameter">course taught by the Computer Science and Information Systems department will be displayed<br/>Scenario 6:Filtering By Course Level</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">that there are courses taught at FETAC level 8</span></div>
+<div class="step successful">And <span class="step parameter">the &quot;filter by course&quot; dropdown list is selected</span></div>
+<div class="step successful">And <span class="step parameter">I check &quot;Level 8&quot;</span></div>
+<div class="step successful">When <span class="step parameter">I click Enter</span></div>
+<div class="step successful">Then <span class="step parameter">courses which are FETAC level 8 will be displayed<br/>Scenario 7: Filtering By Department and Course Level</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">the &quot;filter by department&quot; dropdown list is selected</span></div>
+<div class="step successful">And <span class="step parameter">I check &quot;Computer Science and Information Systems&quot;</span></div>
+<div class="step successful">And <span class="step parameter">the &quot;filter by course&quot; dropdown list is selected</span></div>
+<div class="step successful">And <span class="step parameter">I check &quot;Level 8&quot;</span></div>
+<div class="step successful">When <span class="step parameter">I click Enter</span></div>
+<div class="step successful">Then <span class="step parameter">courses which are FETAC level 8 and taught by the Computer Science and Information Systems department will be displayed<br/>Scenario 7: Non-Filtering By Department and Course Level</span></div>
+<div class="step successful">Given <span class="step parameter">that the webpage with a list of courses is displayed</span></div>
+<div class="step successful">And <span class="step parameter">there is no level 6 course taught by the department of Computer Science and Information Systems</span></div>
+<div class="step successful">And <span class="step parameter">the &quot;filter by department&quot; dropdown list is selected</span></div>
+<div class="step successful">And <span class="step parameter">I check &quot;Computer Science and Information Systems&quot;</span></div>
+<div class="step successful">When <span class="step parameter">I click select the &quot;filter by level&quot; dropdown list</span></div>
+<div class="step successful">Then <span class="step parameter">there will be no checkbox for level 6</span></div>
+</div>
+</div>

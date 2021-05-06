@@ -1,0 +1,27 @@
+<story path="stories\G1\UONG20.storyConverted" title="Title: International Student Talk">
+<scenario keyword="Scenario:" title="Title: International Student Talk
+Narrative:
+As a visitor
+I want to find out where the concert hall is 
+So I can attend the talk for international students
+Acceptance Criteria: 
+Scenario 1: Mobile App &quot;Getting Around&quot; feature">
+<step outcome="successful">Given <parameter>As a visitor</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home page</parameter></step>
+<step outcome="successful">Then <parameter>the I can find the Concert hall by following the map
+Scenario 2: Mobile App &quot;Getting Around&quot; feature - UL Buildings fail to load</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>the map loads without any of UL&apos;s buildings showing</parameter></step>
+<step outcome="successful">Then <parameter>I cannot see where the Concert Hall is on the map
+Scenario 3: Using the &quot;About UL&quot; webpage</parameter></step>
+<step outcome="successful">Given <parameter>that the About UL webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the UL Campus Map link</parameter></step>
+<step outcome="successful">Then <parameter>I can see where on the campus the Concert Hall is
+Scenario 4: Using the &quot;Contact Us&quot; webpage</parameter></step>
+<step outcome="successful">Given <parameter>that the Contact Us webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the contact number for Information Services</parameter></step>
+<step outcome="successful">Then <parameter>I can ask someone where the concert hall is in UL</parameter></step>
+</scenario>
+</story>

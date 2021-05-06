@@ -1,0 +1,44 @@
+<story path="stories\G1\UONG-3.storyConverted" title="Title: Existing student checking course modules to inform decision to transfer course or not">
+<scenario keyword="Scenario:" title="Title: Existing student checking course modules to inform decision to transfer course or not
+Narrative:
+As an existing UL student 
+I want to see the modules taught in a course 
+so that I can decide if I should transfer course
+Acceptance Criteria:
+Scenario 1: Course found by department/discipline">
+<step outcome="failed" keyword="FAILED">Given <parameter>as an existing UL student</parameter><failure>java.lang.NullPointerException</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given <parameter>that I am on the desktop website (UL Homepage)</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When <parameter>I click on courses</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the relevant department</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the course of interest to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the &quot;What you will study&quot; link</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the year of study that applies to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then <parameter>the modules for that year of that course will be displayed</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>these module numbers can be used to gain further information from the book of modules
+Scenario 2: Further module information needed</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given <parameter>that I have the module numbers that I need more information for</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When <parameter>I click navigate to the book of modules</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>select the relevant Faculty from the drop down list</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>select the relevant Department from the drop down list</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>select the relevant Module from the drop down list</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then <parameter>the full information for that module will be displayed
+Scenario 3: Course found alphabetically</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When <parameter>I hover on courses</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the Alphabetical list of courses menu link</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the course of interest to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the &quot;What you will study&quot; link</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the year of study that applies to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then <parameter>the modules for that year of that course will be displayed</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>these module numbers can be used to gain further information from the book of modules
+Scenario 4: Course found by course code</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">When <parameter>I hover on courses</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the Courses by code menu link</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the course of interest to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the &quot;What you will study&quot; link</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>click on the year of study that applies to me</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then <parameter>the modules for that year of that course will be displayed</parameter></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">And <parameter>these module numbers can be used to gain further information from the book of modules</parameter></step>
+</scenario>
+</story>

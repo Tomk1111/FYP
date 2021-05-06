@@ -1,0 +1,15 @@
+<story path="stories\US3.storyConverted" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">travel manager</inOrderTo>
+  <asA keyword="I want to">check travel authorizations</asA>
+  <iWantTo keyword="So that">I can ensure the confirmed bookings</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Listing travel authorizations">
+<step outcome="successful">Given <parameter>As a travel manager</parameter></step>
+<step outcome="successful">Given <parameter>I go to the tab &#8220;Travel Authorization&#8221;</parameter></step>
+<step outcome="successful">When <parameter>I type the &#8220;Booking Reference&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I check if the request is well registered</parameter></step>
+<step outcome="successful">Then <parameter>at this time, I can know for sure (or not) the request has been taken into account</parameter></step>
+<step outcome="successful">And <parameter>it&#8217;s shown a tab: authorized / non-authorized</parameter></step>
+</scenario>
+</story>

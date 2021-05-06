@@ -1,0 +1,28 @@
+<story path="stories\G1\UONG17.storyConverted" title="Title: Book a meeting slot">
+<scenario keyword="Scenario:" title="Title: Book a meeting slot
+Narrative:
+As a prospective student
+I want to book a meeting slot with someone from the ECE department
+So I can find out the different modules and learning outcomes
+Acceptance Criteria: 
+Scenario 1: Mobile App &quot;Book A Meeting&quot; feature">
+<step outcome="successful">Given <parameter>As a prospective student</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Book a meeting&quot; option from the home page</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to book a meeting slot with a lecturer/alumni
+Scenario 2: Select who to book a meeting with (success)</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Book a meeting&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>the list of available meeting slots is shown</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to choose who to book a meeting with
+Scenario 3: Select who to book a meeting with (fail)</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Book a meeting&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>the next screen fails to load</parameter></step>
+<step outcome="successful">Then <parameter>I cannot see who I can book a meeting with
+Scenario 4: Website &quot;Book A Meeting&quot; feature</parameter></step>
+<step outcome="successful">Given <parameter>that the Virtual Open Day webpage is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Book a meeting&quot; option from the webpage</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to book a meeting slot with a lecturer/alumni</parameter></step>
+</scenario>
+</story>

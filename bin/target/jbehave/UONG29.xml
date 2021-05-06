@@ -1,0 +1,29 @@
+<story path="stories\G1\UONG29.storyConverted" title="Title: Sports Scholarships">
+<scenario keyword="Scenario:" title="Title: Sports Scholarships 
+Narrative: As a high level sports player, I wish to know about sports scholarships for my sport so that I may apply.
+Acceptance Criteria: 
+Scenario 1: Navigating to Scholarship Information">
+<step outcome="successful">Given <parameter>as a high level sports player</parameter></step>
+<step outcome="successful">Given <parameter>that the UL homepage is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click the Scholarships link</parameter></step>
+<step outcome="successful">Then <parameter>the webpage with information about scholarships is loaded 
+Scenario 2: More Scholarship information</parameter></step>
+<step outcome="successful">Given <parameter>that the Scholarship webpage information page is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on a listed scholarship</parameter></step>
+<step outcome="successful">Then <parameter>a webpage with more detailed information about the scholarship is loaded 
+Scenario 3: Contact Information</parameter></step>
+<step outcome="successful">Given <parameter>that a webpage detailing a sports scholarship is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click find out more</parameter></step>
+<step outcome="successful">Then <parameter>a message with &quot;Please contact the sport scholarship department&quot; pops up</parameter></step>
+<step outcome="successful">And <parameter>a webpage with the contact information of the sports scholarship admissions office is loaded
+Scenario 4: Open Scholarships</parameter></step>
+<step outcome="successful">Given <parameter>that the Scholarship webpage information page is loaded</parameter></step>
+<step outcome="successful">When <parameter>I check the box &quot;Currently accepting applications&quot;</parameter></step>
+<step outcome="successful">Then <parameter>only scholarships which are currently accepting applications are shown 
+Scenario 5: No Open Scholarships</parameter></step>
+<step outcome="successful">Given <parameter>that the Scholarship webpage information page is loaded</parameter></step>
+<step outcome="successful">And <parameter>no scholarships are currently taking applications</parameter></step>
+<step outcome="successful">When <parameter>I check the box &quot;Currently accepting applications&quot;</parameter></step>
+<step outcome="successful">Then <parameter>the message &quot;No Scholarships are currently taking applications&quot; is displayed.</parameter></step>
+</scenario>
+</story>

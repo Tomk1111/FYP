@@ -1,0 +1,22 @@
+<story path="stories\US2.storyConverted" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">frequent traveler</inOrderTo>
+  <asA keyword="I want to">search for tickets, providing locations and dates for a multi-destination trip</asA>
+  <iWantTo keyword="So that">I can obtain information about rates and flight times</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Multi-destination searching">
+<step outcome="successful">Given <parameter>As a frequent traveler</parameter></step>
+<step outcome="successful">Given <parameter>I go to the page &#8220;Searching Flights&#8221;</parameter></step>
+<step outcome="successful">When <parameter>I choose &#8220;Multi-destinations&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I type &#8220;Paris&#8221; and choose &#8220;Paris, Charles de Gaulle&#8221; in the field &#8220;Departure&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I type &#8220;Rio de Janeiro&#8221; in the field &#8220;Destination&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I choose &#8220;15/02/17&#8221; in the field &#8220;Departure Date&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I choose &#8220;20/02/17&#8221; in the field &#8220;Return Date&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I type &#8220;Rio de Janeiro&#8221; in the field &#8220;Departure&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I type &#8220;Porto Alegre&#8221; in the field &#8220;Destination&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I choose &#8220;17/02/17&#8221; in the field &#8220;Departure Date&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I choose &#8220;19/02/17&#8221; in the field &#8220;Return Date&#8221;</parameter></step>
+<step outcome="successful">And <parameter>I click on &#8220;Search&#8221;</parameter></step>
+<step outcome="successful">Then <parameter>will be displayed the list of available flights</parameter></step>
+</scenario>
+</story>

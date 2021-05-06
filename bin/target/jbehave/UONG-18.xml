@@ -1,0 +1,26 @@
+<story path="stories\G1\UONG-18.storyConverted" title="Title: Law Student open day schedule">
+<scenario keyword="Scenario:" title="Title: Law Student open day schedule
+Narrative:
+As a prospective Law student
+I want an agenda of the times and locations of different activities and talks 
+so I can plan my day at UL effectively
+Acceptance Criteria: 
+Scenario 1: Using event buddy to get user preferences">
+<step outcome="successful">Given <parameter>as a prospective Law student</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Event Buddy&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>specify that I am interested in Law</parameter></step>
+<step outcome="successful">Then <parameter>I will get a schedule with all the events and meetings to do with Law</parameter></step>
+<step outcome="successful">And <parameter>I can filter which events I want to keep in my schedule
+Scenario 2: Mobile App &quot;What&apos;s On&quot; feature</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">And <parameter>my schedule has been generated using the Event Buddy</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Whats On&quot; feature from the home screen</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to choose which Law talks and events I want to go to
+Scenario 3: Refer to &quot;My Schedule&quot; throughout the day</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;My Schedule&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>my schedule is displayed</parameter></step>
+<step outcome="successful">Then <parameter>I can refer to this to see which event is next</parameter></step>
+</scenario>
+</story>

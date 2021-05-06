@@ -1,0 +1,19 @@
+<story path="stories\G1\UONG-21.storyConverted" title="Title: Will talks be recorded">
+<scenario keyword="Scenario:" title="Title: Will talks be recorded
+Narrative:
+As a parent
+I want to know where talk recordings will be stored 
+so I can access the material if I miss it
+Acceptance Criteria: 
+Scenario 1: Virtual open day webpage">
+<step outcome="successful">Given <parameter>as a parent</parameter></step>
+<step outcome="successful">Given <parameter>that the desktop website is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Virtual Open Day&quot; option from the home page</parameter></step>
+<step outcome="successful">Then <parameter>I can see the talks that have already been recorded
+Scenario 2: Upcoming talks</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">And <parameter>the open day has finished</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Talk Recordings&quot; option from the home screen</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to see recordings of talks I missed</parameter></step>
+</scenario>
+</story>

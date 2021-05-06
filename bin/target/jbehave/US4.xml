@@ -1,0 +1,14 @@
+<story path="stories\US4.storyConverted" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">n intern</inOrderTo>
+  <asA keyword="I want to">book a flight to Paris departing on May 2nd until May 10th</asA>
+  <iWantTo keyword="So that">I can attend a seminar</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="">
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+</scenario>
+</story>

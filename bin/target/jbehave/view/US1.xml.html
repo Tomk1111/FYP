@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>US1</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories\US1.storyConverted" title="">
+<scenario keyword="Scenario:" title="Searching demanded tickets">
+<step outcome="successful">Given <parameter>As a guest</parameter></step>
+<step outcome="successful">Given <parameter>I go to the site &quot;SIMBAB/TRAVEL&quot;</parameter></step>
+<step outcome="successful">When <parameter>I choose &quot;the demanded flight (destination and times, TOULOUSE/PARIS, departure 7 a.m., return 7 p.m. at the same day)&quot;</parameter></step>
+<step outcome="successful">And <parameter>I choose &quot;type of traveler Guest&quot;</parameter></step>
+<step outcome="successful">And <parameter>I search</parameter></step>
+<step outcome="successful">Then <parameter>several propositions</parameter></step>
+<step outcome="successful">And <parameter>I choose the desired flights</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">When <parameter>I inform the data concerning the traveler (name, given name, birthdate, phone, mail), and eventually the loyalty card (Flying Blue and Season Ticket)</parameter></step>
+<step outcome="successful">Then <parameter>ticket waiting for validation</parameter></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

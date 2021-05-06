@@ -1,0 +1,34 @@
+<story path="stories\G1\UONG-6.storyConverted" title="Title: Workload and Contact Hours query">
+<scenario keyword="Scenario:" title="Title: Workload and Contact Hours query
+Narrative:
+As a prospective mature student,
+I would like to find out the contact hours and workload for each course
+so that I can plan how I might juggle college and a job
+Scenario 1: Course found by department">
+<step outcome="successful">Given <parameter>as a prospective mature student</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on courses</parameter></step>
+<step outcome="successful">And <parameter>select the relevant department</parameter></step>
+<step outcome="successful">And <parameter>select the course of interest to me</parameter></step>
+<step outcome="successful">And <parameter>the contact hours and workload are known for this course</parameter></step>
+<step outcome="successful">Then <parameter>the course information page will be displayed</parameter></step>
+<step outcome="successful">And <parameter>this info will include course contact hours and average, estimated workload
+Scenario 2: Course found alphabetically</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the alphabetical list of course</parameter></step>
+<step outcome="successful">And <parameter>select the course of interest to me</parameter></step>
+<step outcome="successful">And <parameter>the contact hours and workload are known for this course</parameter></step>
+<step outcome="successful">Then <parameter>the known course information page will be displayed</parameter></step>
+<step outcome="successful">And <parameter>this info will include course contact hours and average, estimated workload
+Scenario 3: New course, listed on site but contact hours or workload are unknown</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the course of interest to me</parameter></step>
+<step outcome="successful">Then <parameter>the known course information page will be displayed</parameter></step>
+<step outcome="successful">And <parameter>I will be directed to contact the course director for further information on the as yet unknown details
+Scenario 4: New course, not found in the system</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on courses</parameter></step>
+<step outcome="successful">And <parameter>select the relevant department</parameter></step>
+<step outcome="successful">Then <parameter>a contact person for that department will be listed at the bottom of the listed courses</parameter></step>
+</scenario>
+</story>

@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>UONG-6</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<html>
+<head>
+	<style type="text/css">@import "view/style/jbehave-core.css";</style>
+</head>
+
+<body>
+<div class="story">
+<h1>Title: Workload and Contact Hours query</h1>
+<div class="path">stories\G1\UONG-6.storyConverted</div>
+<div class="scenario">
+<h2>Scenario: Title: Workload and Contact Hours query
+Narrative:
+As a prospective mature student,
+I would like to find out the contact hours and workload for each course
+so that I can plan how I might juggle college and a job
+Scenario 1: Course found by department</h2>
+<div class="step successful">Given <span class="step parameter">as a prospective mature student</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on the desktop website</span></div>
+<div class="step successful">When <span class="step parameter">I click on courses</span></div>
+<div class="step successful">And <span class="step parameter">select the relevant department</span></div>
+<div class="step successful">And <span class="step parameter">select the course of interest to me</span></div>
+<div class="step successful">And <span class="step parameter">the contact hours and workload are known for this course</span></div>
+<div class="step successful">Then <span class="step parameter">the course information page will be displayed</span></div>
+<div class="step successful">And <span class="step parameter">this info will include course contact hours and average, estimated workload<br/>Scenario 2: Course found alphabetically</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on the desktop website</span></div>
+<div class="step successful">When <span class="step parameter">I click on the alphabetical list of course</span></div>
+<div class="step successful">And <span class="step parameter">select the course of interest to me</span></div>
+<div class="step successful">And <span class="step parameter">the contact hours and workload are known for this course</span></div>
+<div class="step successful">Then <span class="step parameter">the known course information page will be displayed</span></div>
+<div class="step successful">And <span class="step parameter">this info will include course contact hours and average, estimated workload<br/>Scenario 3: New course, listed on site but contact hours or workload are unknown</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on the desktop website</span></div>
+<div class="step successful">When <span class="step parameter">I click on the course of interest to me</span></div>
+<div class="step successful">Then <span class="step parameter">the known course information page will be displayed</span></div>
+<div class="step successful">And <span class="step parameter">I will be directed to contact the course director for further information on the as yet unknown details<br/>Scenario 4: New course, not found in the system</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on the desktop website</span></div>
+<div class="step successful">When <span class="step parameter">I click on courses</span></div>
+<div class="step successful">And <span class="step parameter">select the relevant department</span></div>
+<div class="step successful">Then <span class="step parameter">a contact person for that department will be listed at the bottom of the listed courses</span></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

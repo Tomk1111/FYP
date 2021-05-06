@@ -1,0 +1,18 @@
+<story path="stories\US1.storyConverted" title="">
+<scenario keyword="Scenario:" title="Searching demanded tickets">
+<step outcome="successful">Given <parameter>As a guest</parameter></step>
+<step outcome="successful">Given <parameter>I go to the site &quot;SIMBAB/TRAVEL&quot;</parameter></step>
+<step outcome="successful">When <parameter>I choose &quot;the demanded flight (destination and times, TOULOUSE/PARIS, departure 7 a.m., return 7 p.m. at the same day)&quot;</parameter></step>
+<step outcome="successful">And <parameter>I choose &quot;type of traveler Guest&quot;</parameter></step>
+<step outcome="successful">And <parameter>I search</parameter></step>
+<step outcome="successful">Then <parameter>several propositions</parameter></step>
+<step outcome="successful">And <parameter>I choose the desired flights</parameter></step>
+<step outcome="successful">Given <parameter>As an intern</parameter></step>
+<step outcome="successful">Given <parameter>I&#8217;m going to book my flight</parameter></step>
+<step outcome="successful">When <parameter>interns provide all the information</parameter></step>
+<step outcome="successful">And <parameter>interns choose search by fares</parameter></step>
+<step outcome="successful">Then <parameter>all the available flights for the date are classified by ascending order of fares.</parameter></step>
+<step outcome="successful">When <parameter>I inform the data concerning the traveler (name, given name, birthdate, phone, mail), and eventually the loyalty card (Flying Blue and Season Ticket)</parameter></step>
+<step outcome="successful">Then <parameter>ticket waiting for validation</parameter></step>
+</scenario>
+</story>

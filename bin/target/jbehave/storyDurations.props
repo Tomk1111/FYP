@@ -1,0 +1,12 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Apr 23 03:15:47 BST 2021
+stories\\US3.storyConverted=2000
+stories\\US5.storyConverted=41000
+stories\\US6.storyConverted=48000
+stories\\US4.storyConverted=1000
+stories\\US7.storyConverted=101000
+total=205000
+threadAverage=205000
+stories\\US1.storyConverted=8000
+threads=1
+stories\\US2.storyConverted=4000

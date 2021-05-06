@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>UONG-11</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<html>
+<head>
+	<style type="text/css">@import "view/style/jbehave-core.css";</style>
+</head>
+
+<body>
+<div class="story">
+<h1>Title: Virtual Open Day Enrolment</h1>
+<div class="path">stories\G1\UONG-11.storyConverted</div>
+<div class="scenario">
+<h2>Scenario: Title: Virtual Open Day Enrolment
+Narrative:
+As a prospective student
+I want to find out how to enrol for the virtual open day 
+so that I can attend it.
+Acceptance Criteria:
+Scenario1: Desktop website - Virtual Open Day Enrolment</h2>
+<div class="step successful">Given <span class="step parameter">as a prospective student</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on the Virtual Open Day desktop site</span></div>
+<div class="step successful">When <span class="step parameter">I click on the Enrol link</span></div>
+<div class="step successful">Then <span class="step parameter">I am brought to form to book a place for the key events and receive digital information.<br/>Scenario2: Desktop website - Virtual Open Day Enrolment - successful enrolment</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on Enrol form page</span></div>
+<div class="step successful">When <span class="step parameter">I supply my name, email address and year of graduation</span></div>
+<div class="step successful">And <span class="step parameter">my year of graduation is the next academic year</span></div>
+<div class="step successful">Then <span class="step parameter">I am informed that my place for Event X, Y, Z at times A, B, C was successfully reserved<br/>Scenario3: Desktop website - Virtual Open Day Enrolment - unsuccessful enrolment</span></div>
+<div class="step successful">Given <span class="step parameter">that I am on Enrol form page</span></div>
+<div class="step successful">When <span class="step parameter">I supply my name, email address and year of graduation</span></div>
+<div class="step successful">And <span class="step parameter">my year of graduation is NOT in the next academic year</span></div>
+<div class="step successful">Then <span class="step parameter">I am informed that the open day is specifically for prospective students in the coming academic year</span></div>
+<div class="step successful">And <span class="step parameter">asked to return next year.<br/>Scenario4: Desktop website - Virtual Open Day Enrolment - optional events following successful enrolment</span></div>
+<div class="step successful">Given <span class="step parameter">that I have successfully submitted my enrolment form<br/>If I click on &quot;Reserve other optional events&quot;</span></div>
+<div class="step successful">Then <span class="step parameter">I am brought to a page where I can select optional reservations for faculty specific events</span></div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

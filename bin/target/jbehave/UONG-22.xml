@@ -1,0 +1,26 @@
+<story path="stories\G1\UONG-22.storyConverted" title="Title: Springboard+ funding for postgrads">
+<scenario keyword="Scenario:" title="Title: Springboard+ funding for postgrads
+Narrative:
+As a potential postgrad student,
+I want to find out about funding with Springboard+ for postgrad courses,
+So I can apply for the Devops graduate diploma
+Acceptance Criteria: 
+Scenario 1: Postgrad courses">
+<step outcome="successful">Given <parameter>as a potential postgrad student</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Mature students&quot; tab</parameter></step>
+<step outcome="successful">And <parameter>select link for &quot;Postgraduate Courses&quot;</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to see which postgrad courses are funded
+Scenario 2: Contact details found on website</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Contact Us&quot; tab</parameter></step>
+<step outcome="successful">And <parameter>select the relevant postgrad student queries option</parameter></step>
+<step outcome="successful">Then <parameter>I will be able to find contact details for Springboard+ queries
+Scenario 3: Student Supports</parameter></step>
+<step outcome="successful">Given <parameter>that I am on the desktop website</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Study at UL&quot; tab</parameter></step>
+<step outcome="successful">And <parameter>select link for &quot;Student supports&quot; option</parameter></step>
+<step outcome="successful">And <parameter>I click on the link for the Springboard+ website</parameter></step>
+<step outcome="successful">Then <parameter>I can see Springboard+ details and which courses they fund</parameter></step>
+</scenario>
+</story>

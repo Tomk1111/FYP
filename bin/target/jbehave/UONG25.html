@@ -1,0 +1,44 @@
+<html>
+<head>
+	<style type="text/css">@import "view/style/jbehave-core.css";</style>
+</head>
+
+<body>
+<div class="story">
+<h1>Title: Editing Course Info</h1>
+<div class="path">stories\G1\UONG25.storyConverted</div>
+<div class="scenario">
+<h2>Scenario: Title: Editing Course Info
+Narrative: As a course coordinator, I wish to be able to edit the information on the course homepage so that I can keep it up to date.
+Acceptance Criteria: 
+Scenario 1: Course Coordinator Changing information</h2>
+<div class="step successful">Given <span class="step parameter">as a course coordinator</span></div>
+<div class="step successful">Given <span class="step parameter">that I have the appropriate administrative permissions to edit the webpage</span></div>
+<div class="step successful">And <span class="step parameter">that I am logged into my administrative account</span></div>
+<div class="step successful">And <span class="step parameter">the edit webpage form is loaded</span></div>
+<div class="step successful">And <span class="step parameter">I have altered some information</span></div>
+<div class="step successful">When <span class="step parameter">I click save</span></div>
+<div class="step successful">Then <span class="step parameter">the course homepage will be updated. <br/>Scenario 2: Lecturer changing information</span></div>
+<div class="step successful">Given <span class="step parameter">that I do not have administrative permission to edit the course webpage</span></div>
+<div class="step successful">And <span class="step parameter">I am logged into my UL account</span></div>
+<div class="step successful">And <span class="step parameter">the edit webpage form is loaded</span></div>
+<div class="step successful">And <span class="step parameter">I have altered some information</span></div>
+<div class="step successful">When <span class="step parameter">I click save</span></div>
+<div class="step successful">Then <span class="step parameter">a message will be displayed saying &quot;Edits will be sent to admin account for review&quot;<br/>Scenario 3: Course coordinator leaving form blank</span></div>
+<div class="step successful">Given <span class="step parameter">that I have the appropriate administrative permissions to edit the webpage</span></div>
+<div class="step successful">And <span class="step parameter">that I am logged into my administrative account</span></div>
+<div class="step successful">And <span class="step parameter">the edit webpage form is loaded</span></div>
+<div class="step successful">And <span class="step parameter">I have deleted the information from the fields</span></div>
+<div class="step successful">When <span class="step parameter">I click save</span></div>
+<div class="step successful">Then <span class="step parameter">an error message reading &quot;Error : Please fill in blank fields&quot; will be displayed.</span></div>
+<div class="step successful">And <span class="step parameter">the course webpage will not be updated <br/>Scenario 4: Incorrect form inputs</span></div>
+<div class="step successful">Given <span class="step parameter">that I have the appropriate administrative permissions to edit the webpage</span></div>
+<div class="step successful">And <span class="step parameter">that I am logged into my administrative account</span></div>
+<div class="step successful">And <span class="step parameter">the edit webpage form is loaded</span></div>
+<div class="step successful">And <span class="step parameter">I have deleted the information from the fields</span></div>
+<div class="step successful">And <span class="step parameter">I enter numerical types into the field &quot;Course Coordinator&quot;</span></div>
+<div class="step successful">When <span class="step parameter">I click save</span></div>
+<div class="step successful">Then <span class="step parameter">an error message reading &quot;Error : Course Coordinator can not be a number&quot; will be displayed.</span></div>
+<div class="step successful">And <span class="step parameter">the course webpage will not be updated</span></div>
+</div>
+</div>

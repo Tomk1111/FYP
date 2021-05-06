@@ -1,4 +1,23 @@
 @startuml
+
+   Flight *-- Location
+   User <|-- Guest
+   User <|-- Intern
+   User <|-- Traveler
+   User <|-- TravelManager
+   User <|-- Researcher
+   User *-- Trip
+   Trip *-- Ticket
+   Ticket *-- Flight
+   Ticket ..> Flight
+   Guest ..> Flight
+   Researcher ..> Flight
+   Researcher ..> Ticket
+   Traveler ..> Ticket
+   TravelManager ..> Ticket
+   Intern ..> Trip
+   Intern ..> Ticket
+
     class Flight {
         Location departure
         Location arrival
@@ -7,20 +26,20 @@
         int remainingSeats
     }
 
-    class Guest extends User{
+    Class Guest {
         bookFlight(Flight flight)
     }
 
-    class Intern extends User{
+    Class Intern {
         bookTrip()
     }
 
-    class Location {
+    Class Location {
         String country
         String airport
     }
 
-    class Researcher extends User{
+    Class Researcher {
         getCompatibleFlights() 
         searchTickets()
         searchFlights()
@@ -28,39 +47,34 @@
 
     }
 
-    class Ticket {
+    Class Ticket {
         Flight flight
         int price
         String seatNumber
         Boolean available
-
         BookFlight(Flight flight)
     }
 
     
-    class Traveler extends User{
+    Class Traveler {
         searchTickets()
     }
 
-    class TravelManager extends User{
+    Class TravelManager {
         checkAuthorizations(Ticket ticket)
     }
 
-    class Trip {
+    Class Trip {
         List<Ticket> bookings
         addTicket(Ticket ticket)
     }
 
 
-    class User {
+    Class User {
         String name
         String surname
         String passportNumber
         List<Trip> trips
         bookTicket()
     }
-
-
-
-
 @enduml

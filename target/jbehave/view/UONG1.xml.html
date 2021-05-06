@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>UONG1</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories\G1\UONG1.storyConverted" title="Title: Course List">
+<scenario keyword="Scenario:" title="Title: Course List 
+Narrative: As a current leaving certificate student I want to see what courses are available at UL to help me decide what I should study at third level.
+Acceptance Criteria: 
+Scenario 1: Course List">
+<step outcome="successful">Given <parameter>As a current leaving certificate student</parameter></step>
+<step outcome="successful">Given <parameter>that the University Limerick homepage is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on courses</parameter></step>
+<step outcome="successful">Then <parameter>the webpage with a list of courses available at UL is displayed 
+Scenario 2: Course Keyword Search</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>I enter a word in the search bar</parameter></step>
+<step outcome="successful">And <parameter>courses with this word in their title are taught at UL</parameter></step>
+<step outcome="successful">When <parameter>I click search</parameter></step>
+<step outcome="successful">Then <parameter>only the courses with that word in the title will be displayed 
+Scenario 3: No Course with Keyword Search</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>I enter a word in the search bar</parameter></step>
+<step outcome="successful">And <parameter>no course with that word in the title is taught at UL</parameter></step>
+<step outcome="successful">When <parameter>I click search</parameter></step>
+<step outcome="successful">Then <parameter>the message &quot;No Courses Found&quot; will be displayed 
+Scenario 4: Course Information</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the title of the course on the list</parameter></step>
+<step outcome="successful">Then <parameter>the course homepage will be displayed
+Scenario 4: Department Information</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the department which facilitates a course</parameter></step>
+<step outcome="successful">Then <parameter>the department homepage will be displayed
+Scenario 5:Filtering By Department</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>that there are courses taught by the department of omputer Science and Information Systems</parameter></step>
+<step outcome="successful">And <parameter>the &quot;filter by department&quot; dropdown list is selected</parameter></step>
+<step outcome="successful">And <parameter>I check &quot;Computer Science and Information Systems&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click Enter</parameter></step>
+<step outcome="successful">Then <parameter>course taught by the Computer Science and Information Systems department will be displayed
+Scenario 6:Filtering By Course Level</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>that there are courses taught at FETAC level 8</parameter></step>
+<step outcome="successful">And <parameter>the &quot;filter by course&quot; dropdown list is selected</parameter></step>
+<step outcome="successful">And <parameter>I check &quot;Level 8&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click Enter</parameter></step>
+<step outcome="successful">Then <parameter>courses which are FETAC level 8 will be displayed
+Scenario 7: Filtering By Department and Course Level</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>the &quot;filter by department&quot; dropdown list is selected</parameter></step>
+<step outcome="successful">And <parameter>I check &quot;Computer Science and Information Systems&quot;</parameter></step>
+<step outcome="successful">And <parameter>the &quot;filter by course&quot; dropdown list is selected</parameter></step>
+<step outcome="successful">And <parameter>I check &quot;Level 8&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click Enter</parameter></step>
+<step outcome="successful">Then <parameter>courses which are FETAC level 8 and taught by the Computer Science and Information Systems department will be displayed
+Scenario 7: Non-Filtering By Department and Course Level</parameter></step>
+<step outcome="successful">Given <parameter>that the webpage with a list of courses is displayed</parameter></step>
+<step outcome="successful">And <parameter>there is no level 6 course taught by the department of Computer Science and Information Systems</parameter></step>
+<step outcome="successful">And <parameter>the &quot;filter by department&quot; dropdown list is selected</parameter></step>
+<step outcome="successful">And <parameter>I check &quot;Computer Science and Information Systems&quot;</parameter></step>
+<step outcome="successful">When <parameter>I click select the &quot;filter by level&quot; dropdown list</parameter></step>
+<step outcome="successful">Then <parameter>there will be no checkbox for level 6</parameter></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

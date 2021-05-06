@@ -1,0 +1,21 @@
+<story path="stories\G1\UONG28.storyConverted" title="Title: Car Parking Info">
+<scenario keyword="Scenario:" title="Title: Car Parking Info
+Narrative: As a driver of vehicle X, I wish to know where the designated parking or drop off points will be so that I can plan my route.
+Acceptance Criteria: 
+Scenario 1: Map Information - App">
+<step outcome="successful">Given <parameter>as a driver of vehicle X</parameter></step>
+<step outcome="successful">Given <parameter>that the app is opened</parameter></step>
+<step outcome="successful">And <parameter>the map page is loaded</parameter></step>
+<step outcome="successful">When <parameter>I check the show parking box</parameter></step>
+<step outcome="successful">Then <parameter>a P icon will appear where the carparks are located on the map
+Scenario 2: Getting Here Information - App</parameter></step>
+<step outcome="successful">Given <parameter>that the app is opened</parameter></step>
+<step outcome="successful">And <parameter>I navigate to the getting here page</parameter></step>
+<step outcome="successful">When <parameter>I scroll to the bottom</parameter></step>
+<step outcome="successful">Then <parameter>a list of carparks on campus will be shown
+Scenario 3: Visiting UL</parameter></step>
+<step outcome="successful">Given <parameter>that the visiting UL webpage is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the Car Parks link</parameter></step>
+<step outcome="successful">Then <parameter>a list of carparks and their opening times will be shown</parameter></step>
+</scenario>
+</story>

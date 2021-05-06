@@ -1,0 +1,19 @@
+<story path="stories\G1\UONG7.storyConverted" title="Title: Fees Infomations">
+<scenario keyword="Scenario:" title="Title: Fees Infomations 
+Narrative: As a parent, I would like to find out the cost of going to UL so that I can get my finances in order
+Acceptance Criteria: 
+Scenario 1: Navigating to course fees page">
+<step outcome="successful">Given <parameter>as a parent</parameter></step>
+<step outcome="successful">Given <parameter>that the a course webpage is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the course fees tab</parameter></step>
+<step outcome="successful">Then <parameter>a webpage detailing the course costs is loaded
+Scenario 2: Navigating to fees page</parameter></step>
+<step outcome="successful">Given <parameter>that the a Scholarships webpage is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the List Scholarships tab</parameter></step>
+<step outcome="successful">Then <parameter>a webpage with details of available scholarships is loaded. 
+Scenario 3: Fees Due</parameter></step>
+<step outcome="successful">Given <parameter>that the Student Finance webpage is loaded</parameter></step>
+<step outcome="successful">When <parameter>I click &quot;Pay Course Fees&quot;</parameter></step>
+<step outcome="successful">Then <parameter>a student log in page is displayed</parameter></step>
+</scenario>
+</story>

@@ -1,0 +1,20 @@
+<story path="stories\G1\UONG-19.storyConverted" title="Title: SUSI and Financial Support">
+<scenario keyword="Scenario:" title="Title: SUSI and Financial Support
+Narrative:
+As a parent
+I want to find out information about SUSI grants and the other financial supports UL offer for students
+So I can decide if UL is right for my son/daughter
+Acceptance Criteria: 
+Scenario 1: Contact information regarding SUSI grants">
+<step outcome="successful">Given <parameter>as a parent</parameter></step>
+<step outcome="successful">Given <parameter>that the desktop website is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Contact Us&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>I click the option for Financial Supports</parameter></step>
+<step outcome="successful">Then <parameter>I can call the contact number for queries
+Scenario 2: Student supports information</parameter></step>
+<step outcome="successful">Given <parameter>that the desktop website is displayed</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Study at UL&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>I click the option for Student Supports</parameter></step>
+<step outcome="successful">Then <parameter>I can see the available supports for students</parameter></step>
+</scenario>
+</story>

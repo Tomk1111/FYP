@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>UONG20</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories\G1\UONG20.storyConverted" title="Title: International Student Talk">
+<scenario keyword="Scenario:" title="Title: International Student Talk
+Narrative:
+As a visitor
+I want to find out where the concert hall is 
+So I can attend the talk for international students
+Acceptance Criteria: 
+Scenario 1: Mobile App &quot;Getting Around&quot; feature">
+<step outcome="successful">Given <parameter>As a visitor</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home page</parameter></step>
+<step outcome="successful">Then <parameter>the I can find the Concert hall by following the map
+Scenario 2: Mobile App &quot;Getting Around&quot; feature - UL Buildings fail to load</parameter></step>
+<step outcome="successful">Given <parameter>that I have logged in to the mobile app</parameter></step>
+<step outcome="successful">When <parameter>I click on the &quot;Getting Around&quot; option from the home page</parameter></step>
+<step outcome="successful">And <parameter>the map loads without any of UL&apos;s buildings showing</parameter></step>
+<step outcome="successful">Then <parameter>I cannot see where the Concert Hall is on the map
+Scenario 3: Using the &quot;About UL&quot; webpage</parameter></step>
+<step outcome="successful">Given <parameter>that the About UL webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the UL Campus Map link</parameter></step>
+<step outcome="successful">Then <parameter>I can see where on the campus the Concert Hall is
+Scenario 4: Using the &quot;Contact Us&quot; webpage</parameter></step>
+<step outcome="successful">Given <parameter>that the Contact Us webpage has loaded</parameter></step>
+<step outcome="successful">When <parameter>I click on the contact number for Information Services</parameter></step>
+<step outcome="successful">Then <parameter>I can ask someone where the concert hall is in UL</parameter></step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
